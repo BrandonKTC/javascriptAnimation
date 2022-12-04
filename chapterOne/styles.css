@@ -1,0 +1,44 @@
+section {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	cursor: pointer;
+	font-size: 1.5rem;
+	padding: 1rem;
+	border: none;
+	background: hsl(0deg, 100%, 0%);
+	color: hsl(0deg, 100%, 100%);
+	border-radius: 10px;
+	transition: background 0.75s ease-in-out;
+}
+
+button:hover {
+	background-color: hsl(40deg, 100%, 40%);
+}
+
+nav {
+	min-height: 10vh;
+	background: hsl(0deg, 80%, 15%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: hsl(0deg, 100%, 100%);
+	transition: all 1s ease-out;
+}
+
+p {
+	opacity: 1;
+	transition: opacity 0.5s ease-out 0.5s;
+}
+
+.fade {
+	opacity: 0;
+}
+
+.nav-slide {
+	transform: translateY(-115%);
+}
